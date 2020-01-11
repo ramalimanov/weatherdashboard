@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="navbar-top">
+      <nav class="blue">
+        <div class="container">
+          <div class="nav-wrapper">
+            <h2>Weather Dashboard</h2>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Search section -->
+  <section class="section section-search darken-2 white-text center-align">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field">
+            <div class="col offset-s1 s8">
+              <input type="text" name="" id="autocomplete-input" class="white grey-text autocomplete"
+                placeholder="Baku, Istanbul, New York...">
+            </div>
+            <div class="col s2">
+              <button type="submit" class="btn btn-large search blue">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  Display Result -->
+  <section class="section section-results grey lighten-4"></section>
+
+  <!-- Search History-->
+  <section class="section search-history">
+    <div class="container">
+      <div class="row">
+        <h4 class="center">Last Place Searched</h4>
+      </div>
+    </div>
+  </section>
+  <footer class="section blue white-text darken-2 center">
+    <p>Weather Dashboard &copy; 2020</p>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
